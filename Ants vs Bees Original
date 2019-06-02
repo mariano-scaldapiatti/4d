@@ -176,6 +176,7 @@ class HarvesterAnt(Ant):
 
     name = 'Harvester'
     implemented = True
+    food_cost = 2
     # OVERRIDE CLASS ATTRIBUTES HERE
 
     def action(self, colony):
@@ -193,6 +194,8 @@ class ThrowerAnt(Ant):
     name = 'Thrower'
     implemented = True
     damage = 1
+    
+    food_cost = 3
     # ADD/OVERRIDE CLASS ATTRIBUTES HERE
 
     def nearest_bee(self, hive):
