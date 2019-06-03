@@ -1,5 +1,5 @@
 """CS 61A presents Ants Vs. SomeBees."""
-
+https://inst.eecs.berkeley.edu/~cs61a/sp18/proj/ants/#problem-4-2-pt
 import random
 from ucb import main, interact, trace
 from collections import OrderedDict
