@@ -88,6 +88,7 @@ class Insect(object):
 
     is_ant = False
     damage = 0
+    watersafe = False
     # ADD CLASS ATTRIBUTES HERE
 
     def __init__(self, armor, place=None):
@@ -122,6 +123,8 @@ class Bee(Insect):
 
     name = 'Bee'
     damage = 1
+    watersafe = True
+    
     # OVERRIDE CLASS ATTRIBUTES HERE
 
 
